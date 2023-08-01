@@ -1,0 +1,31 @@
+{
+  "name": "nodeapitsmysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabricioLeindecker/nodeApiTsMysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabricioLeindecker/nodeApiTsMysql/issues"
+  },
+  "homepage": "https://github.com/FabricioLeindecker/nodeApiTsMysql#readme",
+  "dependencies": {
+    "@types/node": "^20.4.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
