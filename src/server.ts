@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 3333;
 
 app.get('/', (request: any, response: any) => {
     response.send('Bem-vindo!')
-});
+})
 
 app.listen(PORT, () => {
     console.log(`Running on port ${PORT}`)
-});
+})
